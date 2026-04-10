@@ -1,0 +1,92 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f5f5f0;
+    font-family: sans-serif; 
+}
+
+.calc {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.display {
+    background: #f5f5f0;
+    padding: 1.25rem 1rem 1rem;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+.display .expr {
+    font-size: 13px;
+    color: #999;
+    min-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl; 
+}
+
+.display .num  {
+    font-size: 36px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+    line-height: 1.2;
+    margin-top: 4px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    border: none;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    height: 64px; font-size: 17px;
+    cursor: pointer; background: #fff;
+    transition: background 0.08s;
+}
+
+.btn:active {
+    background: #f0f0ec;
+}
+
+.btn.op  {
+    color: #185FA5;
+    font-weight: 500;
+}
+
+.btn.fn  {
+    background: #f5f5f0;
+    color: #666;
+    font-size: 14px;
+}
+
+.btn.eq  {
+    background: #185FA5;
+    color: #fff;
+    font-size: 22px;
+}
+
+.btn.eq:active {
+    background: #0C447C;
+}
+
+.btn.zero {
+    grid-column: span 2;
+}
+
+.btn.danger { 
+    color: #A32D2D; 
+}
