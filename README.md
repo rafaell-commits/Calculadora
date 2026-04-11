@@ -3,7 +3,6 @@
 Este é meu primeiro projeto desenvolvido para meu portfólio. Aqui explico o que ele faz e como cheguei ao resultado.
 
 ## ✨ Funcionalidades
-- [x] Funcionalidade A
 - [x] Como chegamos a este resultado :
    Explicação completa da Calculadora
 vou separar os três arquivos — estrutura, visual e lógica, sem deixar nada de fora.
