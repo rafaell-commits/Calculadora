@@ -90,4 +90,4 @@ O design central é o atributo data-a: ele desacopla o visual da lógica. Você 
 
 <img width="441" height="581" alt="image" src="https://github.com/user-attachments/assets/ec62f66c-91df-4c26-b352-52f2115a9a25" />
 
-Você pode acessar o projeto rodando aqui:
+Você pode acessar o projeto rodando aqui: https://github.com/rafaell-commits/Calculadora.git
