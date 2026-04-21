@@ -64,3 +64,5 @@ Não é necessário configurar nenhum ambiente de build.
 Este projeto demonstra como conceitos fundamentais de desenvolvimento web podem criar ferramentas poderosas e visualmente agradáveis sem a necessidade de bibliotecas externas pesadas.
 
 **Sinta-se à vontade para explorar o código, fazer forks ou sugerir melhorias!** 🚀
+
+**Acesse o link para experimentar:** https://rafaell-commits.github.io/Calculadora/
